@@ -1,0 +1,16 @@
+---
+title: "One to Ten Printer R Comments"
+author: "[Mykhailo Mulko](https://www.linkedin.com/in/mykhailo-mulko-6142001b8/)"
+date: 6 November 2022
+---
+## One to Ten Printer R Comments
+
+The task was to write R script that prints all integers between 1 and 10 *(including 1 and 10)* to screen. After some research of this programming language, I came up with **"for" cycle** which will print required integers. Here is my code:
+
+```{r quote}
+for (n in 1:10) {
+  print(n)
+}
+```
+
+**NOTE:** The range of needed integers is given with **":"** sign. Also, we can see that end of range *(10)* is included when printing integers. This will be important when reviewing Python script.
